@@ -1,0 +1,27 @@
+.navbar{
+    background-color: transparent;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_left_heading{
+    margin-left: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navabr_center_buttons{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+}
+.center_btn{
+    margin: 0 1rem 0 1rem;
+}
+.center_btn:hover{
+    cursor: pointer;
+}
+.highlight{
+    font-weight: bold;
+}

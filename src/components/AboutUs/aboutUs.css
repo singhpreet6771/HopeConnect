@@ -1,0 +1,182 @@
+.about_us_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* About us header started */
+.aboutUs{
+    background-color: transparent;
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_us_image{
+    width: 45%;
+    height: 700px;
+    margin-left: 1rem;
+}
+.images{
+    position: relative;
+    height: 650px;
+    width: 90%;
+}
+.main_background{
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    height: 500px;
+    left: 20%;
+    top: 10%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#mainBgImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+}
+#bgImage1{
+    position: absolute;
+    top: 260px;
+    left: 70%;
+}
+#bgImage2{
+    position: absolute;
+    top: 200px;
+    left: 40%;
+}
+#bgImage3{
+    position: absolute;
+    top: 310px;
+    left: 0;
+}
+#bgImage4{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+.about_us_info{
+    width: 55%;
+    height: 700px;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about_us_heading{
+    font-weight: 500;
+    font-size: 72px
+}
+.about_us_features{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature_icon_main{
+    width: 100%;
+    height: 35%;
+}
+.feature_icon{
+    font-size: 36px;
+}
+.feature_description{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 55%;
+}
+.about_us_join_btns{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+/* About us header finished */
+
+/* About us services started */
+.about_us_services{
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.services{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service_description{
+    height: 500px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.service_heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+.service_pointers{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+.service_pointer{
+    margin-bottom: 10px;
+}
+.service_text{
+    margin-left: 5px;
+}
+.service_cards{
+    height: 400px;
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.service_card{
+    height: 150px;
+    width: 40%;
+    background-color: #b2cfef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.service_card:nth-child(even){
+    margin-top: 20px;
+}
+.service_card:nth-child(odd){
+    margin-top: 0px;
+}
+.card_service_heading{
+    font-size: 15px;
+    font-weight: bold;
+}
+.card_service_description{
+    font-size: 15px;
+    text-align: center;
+}
+/* About us services finished */
