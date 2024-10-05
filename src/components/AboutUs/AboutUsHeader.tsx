@@ -6,6 +6,7 @@ import bgImage3 from "../../assets/background-image-3.png";
 import bgImage4 from "../../assets/background-image-4.png";
 import BtnFilled from "../Common/BtnFilled";
 import BtnEmpty from "../Common/BtnEmpty";
+import AboutUsHeaderFeature from "./AboutUsHeaderFeature";
 
 const AboutUsHeader = () => {
   return (
@@ -26,28 +27,18 @@ const AboutUsHeader = () => {
           Empowering Unity: Building Stronger Communities with HopeConnect
         </div>
         <div className="about_us_features">
-          <div className="feature">
-            <div className="feature_icon_main">
-              <i className="fa-solid fa-lightbulb feature_icon"></i>
-            </div>
-            <div className="feature_description">
-              Seamless Real-Time Sharing
-            </div>
-          </div>
-          <div className="feature">
-            <div className="feature_icon_main">
-              <i className="fa-solid fa-rocket feature_icon"></i>
-            </div>
-            <div className="feature_description">
-              Your Identity Stays Confidential
-            </div>
-          </div>
-          <div className="feature">
-            <div className="feature_icon_main">
-              <i className="fa-solid fa-circle-check feature_icon"></i>
-            </div>
-            <div className="feature_description">Public Help Request Feed</div>
-          </div>
+          <AboutUsHeaderFeature
+            description={"Seamless Real-Time Sharing"}
+            icon={"lightbulb"}
+          />
+          <AboutUsHeaderFeature
+            description={"Your Identity Stays Confidential"}
+            icon={"rocket"}
+          />
+          <AboutUsHeaderFeature
+            description={"Public Help Request Feed"}
+            icon={"circle-check"}
+          />
         </div>
         <div className="about_us_join_btns">
           <BtnFilled title={"Get Started"} />

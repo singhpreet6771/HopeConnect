@@ -2,17 +2,18 @@ import "./navbar.css";
 import { useNavigate } from "react-router-dom";
 import BtnEmptyBorder from "../Common/BtnEmptyBorder";
 import { useState } from "react";
-class Paths {
+import NavbarBtn from "./NavbarBtn";
+class Path {
   HOME!: string;
   CONTACT_US!: string;
   ABOUT_US!: string;
 
-  public constructor(init?: Partial<Paths>) {
+  public constructor(init?: Partial<Path>) {
     Object.assign(this, init);
   }
 }
 const Navbar = () => {
-  const paths: Paths = {
+  const path: Path = {
     HOME: "/",
     CONTACT_US: "/contactUs",
     ABOUT_US: "/aboutUs",
@@ -27,30 +28,24 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar_left_heading">HopeConnect</div>
       <div className="navabr_center_buttons">
-        <div
-          className={`center_btn ${
-            selectedPath === paths.HOME ? "highlight" : ""
-          }`}
-          onClick={() => goTo(paths.HOME)}
-        >
-          Home
-        </div>
-        <div
-          className={`center_btn ${
-            selectedPath === paths.CONTACT_US ? "highlight" : ""
-          }`}
-          onClick={() => goTo(paths.CONTACT_US)}
-        >
-          Contact
-        </div>
-        <div
-          className={`center_btn ${
-            selectedPath === paths.ABOUT_US ? "highlight" : ""
-          }`}
-          onClick={() => goTo(paths.ABOUT_US)}
-        >
-          About Us
-        </div>
+        <NavbarBtn
+          selectedPath={selectedPath}
+          path={path.HOME}
+          title={"Home"}
+          goTo={goTo}
+        />
+        <NavbarBtn
+          selectedPath={selectedPath}
+          path={path.CONTACT_US}
+          title={"Contact"}
+          goTo={goTo}
+        />
+        <NavbarBtn
+          selectedPath={selectedPath}
+          path={path.ABOUT_US}
+          title={"About Us"}
+          goTo={goTo}
+        />
       </div>
       <BtnEmptyBorder title={"Sign Up"} />
     </div>
