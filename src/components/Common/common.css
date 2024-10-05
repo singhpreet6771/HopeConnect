@@ -1,0 +1,45 @@
+.btn_filled{
+    margin-right: 1rem;
+    border: 1px solid #0e58aeff;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 15px;
+    font-size: small;
+    background: #0e58aeff;
+}
+.btn_filled:hover{
+    cursor: pointer;
+}
+.btn_empty{
+    border: 1px solid transparent;
+    color: #0e58aeff;
+    width: 7rem;
+    height: 3rem;
+    font-size: medium;
+    background: transparent;
+}
+.btn_empty:hover{
+    cursor: pointer;
+}
+.btn_empty span{
+    margin-right: 5px;
+    font-weight: 700;
+}
+.btn_empty i{
+    color: #0e58aeff;
+}
+.btn_empty_border{
+    margin-right: 1rem;
+    border: 1px solid #0e58aeff;
+    color: #0e58aeff;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background: transparent;
+}
+.btn_empty_border:hover{
+    cursor: pointer;
+    background: #0e58aeff;
+    color: white;
+}
