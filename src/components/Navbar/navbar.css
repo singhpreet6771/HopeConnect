@@ -11,6 +11,9 @@
     font-size: 25px;
     font-weight: bold;
 }
+.navbar_left_heading:hover{
+    cursor: pointer;
+}
 .navabr_center_buttons{
     display: flex;
     flex-direction: row;

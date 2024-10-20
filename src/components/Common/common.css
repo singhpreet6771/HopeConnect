@@ -13,8 +13,9 @@
 }
 .btn_empty{
     border: 1px solid transparent;
+    padding: 0px;
     color: #0e58aeff;
-    width: 7rem;
+    width: auto;
     height: 3rem;
     font-size: medium;
     background: transparent;
