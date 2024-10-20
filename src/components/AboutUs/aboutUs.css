@@ -262,3 +262,95 @@
     color: white;
 }
 /* About us benefits finished */
+
+/* About us contact started */
+.about_us_contact{
+    height: 700px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_form{
+    background-color: #0e58aeff;
+    border-radius: 2rem;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.contact_heading{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+}
+.contact_inputs{
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 45%;
+}
+.contact-form-label{
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+}
+.contact-form-control{
+    width: 90%;
+    min-height: 2rem;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+.contact-form-control::placeholder{
+    color: white;
+}
+.contact-form-control:focus{
+    outline: none;
+}
+.message_input{
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.contact_message_control{
+    width: 100%;
+    min-height:1rem;
+    padding-top: 1%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+.contact_message_control::placeholder{
+    color: white;
+}
+.contact_message_control:focus{
+    outline: none;
+}
+.main-submit-contact{
+    margin-top: 2rem;
+}
+/* About us contact finished */

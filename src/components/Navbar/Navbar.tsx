@@ -26,7 +26,9 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <div className="navbar_left_heading">HopeConnect</div>
+      <div className="navbar_left_heading" onClick={() => goTo(path.HOME)}>
+        HopeConnect
+      </div>
       <div className="navabr_center_buttons">
         <NavbarBtn
           selectedPath={selectedPath}
