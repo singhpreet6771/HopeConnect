@@ -1,5 +1,6 @@
 import "./aboutUs.css";
 import AboutUsBenefits from "./AboutUsBenefits";
+import AboutUsContact from "./AboutUsContact";
 import AboutUsHeader from "./AboutUsHeader";
 import AboutUsServices from "./AboutUsServices";
 
@@ -9,6 +10,7 @@ const AboutUs = () => {
       <AboutUsHeader />
       <AboutUsServices />
       <AboutUsBenefits />
+      <AboutUsContact />
     </div>
   );
 };
